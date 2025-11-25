@@ -1,0 +1,29 @@
+{
+  "name": "ucab-finance-sas",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "recharts": "^2.12.2"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^2.6.0",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@vitejs/plugin-react": "^4.2.1",
+    "postgres": "^3.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6"
+  }
+}
